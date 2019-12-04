@@ -1,0 +1,29 @@
+{
+  "name": "@idirdev/webhook-bridge",
+  "version": "1.4.0",
+  "description": "Receive, store, transform, and forward webhooks.",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/webhook-bridge.git"
+  },
+  "keywords": [
+    "webhook",
+    "bridge",
+    "forward",
+    "transform",
+    "http",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test --test-timeout=15000 tests/webhook-bridge.test.js"
+  },
+  "bin": {
+    "webhook-bridge": "./bin/cli.js"
+  }
+}
