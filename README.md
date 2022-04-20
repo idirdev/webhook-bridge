@@ -124,3 +124,21 @@ The signature format is: `sha256=<hex-digest>`
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+Webhook Bridge est un service de transfert et de transformation de webhooks construit avec Express. Il permet de recevoir des webhooks depuis n'importe quelle source, de transformer les données, de vérifier les signatures HMAC, et de les retransmettre vers plusieurs destinations avec des tentatives automatiques en cas d'échec.
+
+### Installation
+```bash
+npm install
+npm run dev
+```
+
+Le serveur démarre sur `http://localhost:3100`.
+
+### Utilisation
+Enregistrez un webhook via `POST /webhooks/register`, puis envoyez vos événements vers `POST /webhooks/:id`. Consultez la documentation anglaise ci-dessus pour la liste complète des routes, des règles de transformation et des options de configuration.
