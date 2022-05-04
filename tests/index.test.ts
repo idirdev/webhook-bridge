@@ -10,7 +10,7 @@ import {
   generateSignature,
   isValidSignatureFormat,
   parseSignatureHeader,
-} from '../src/utils/verifySignature';
+} from '../src/services/validator';
 import { calculateDelay, getBackoffSchedule } from '../src/utils/retry';
 import type { TransformRule } from '../src/types/index';
 
