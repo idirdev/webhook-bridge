@@ -142,3 +142,4 @@ Le serveur démarre sur `http://localhost:3100`.
 
 ### Utilisation
 Enregistrez un webhook via `POST /webhooks/register`, puis envoyez vos événements vers `POST /webhooks/:id`. Consultez la documentation anglaise ci-dessus pour la liste complète des routes, des règles de transformation et des options de configuration.
+
