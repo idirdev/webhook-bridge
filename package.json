@@ -25,5 +25,9 @@
   },
   "bin": {
     "webhook-bridge": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/webhook-bridge",
+  "bugs": {
+    "url": "https://github.com/idirdev/webhook-bridge/issues"
   }
 }
